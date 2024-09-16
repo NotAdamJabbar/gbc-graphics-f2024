@@ -84,6 +84,12 @@
   <ItemGroup>
     <ClInclude Include="src\Math.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\default.vert" />
+    <None Include="assets\shaders\uniform_color.frag" />
+    <None Include="assets\shaders\vertex_color.frag" />
+    <None Include="assets\shaders\vertex_color.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
